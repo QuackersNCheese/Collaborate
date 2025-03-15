@@ -2,8 +2,49 @@ body {
     background-color: #222;
     color: #ddd;
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: 768px;
+    line-height: 120%;
 }
 h1 {
     color: dodgerblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: limegreen;
+}
+
+h4 {
+    color: cyan;
+}
+
+h1, h2, h3, h4, th {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-indent: 2em;
+}
+
+p, li, td {
+    font-family:'Times New Roman', Times, serif;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: cyan;
+}
+
+table, td, tr, th {
+    border: 1px solid #bbb;
 }
