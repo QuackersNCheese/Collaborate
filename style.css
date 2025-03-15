@@ -48,3 +48,8 @@ th {
 table, td, tr, th {
     border: 1px solid #bbb;
 }
+
+figcaption{
+    text-align:center;
+    color:darkcyan;
+}
